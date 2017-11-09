@@ -5,7 +5,7 @@ namespace XUnit.Theory
     public class EvenTest
     {
         [Theory]
-        [InlineData(42, true)]
+        [InlineData(42, false)]
         [InlineData(43, false)]
         public void TestEven(int number, bool expected)
         {
